@@ -19,6 +19,8 @@ This repository contains a comprehensive collection of League of Legends skin as
 
 **[Rose](https://github.com/Alban1911/Rose)** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
+All skin assets are distributed in the `.rse` (Rose Skin Encrypted) format. This proprietary encryption ensures that skin files can only be loaded and applied through the official Rose application, preventing unauthorized use or redistribution by third-party tools.
+
 ## Features
 
 - **Complete Skin Collection** - Access to all League of Legends skins
@@ -34,15 +36,15 @@ This repository contains a comprehensive collection of League of Legends skin as
 skins/
 ├── {champion_id}/
 │   ├── {skin_id}/
-│   │   ├── {skin_id}.zip          # Skin asset package
+│   │   ├── {skin_id}.rse          # Skin asset package (encrypted)
 │   │   └── {chroma_id}/            # Chroma variants (if available)
-│   │       └── {chroma_id}.zip     # Chroma asset package
+│   │       └── {chroma_id}.rse     # Chroma asset package (encrypted)
 │   └── {skin_id}/                  # Skins with custom forms
 │       ├── {skin_id}.png           # Base skin preview (only for custom forms)
-│       ├── {skin_id}.zip           # Skin asset package
+│       ├── {skin_id}.rse           # Skin asset package (encrypted)
 │       └── {form_id}/              # Custom form variants
 │           ├── {form_id}.png       # Form preview image
-│           └── {form_id}.zip       # Form asset package
+│           └── {form_id}.rse       # Form asset package (encrypted)
 ```
 
 ### File Organization
@@ -51,7 +53,7 @@ skins/
 - **Skin & Chroma IDs**: Calculated as `champion_id * 1000 + skin_number`
 - **File Types**: 
   - `.png` - Preview images (only included for skins with custom forms)
-  - `.zip` - Complete skin asset packages
+  - `.rse` - Rose Skin Encrypted files, a proprietary format that prevents skin assets from being used outside of Rose
 
 ## Getting Started
 
