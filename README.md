@@ -1,4 +1,4 @@
-<img width="222" height="205" alt="image" src="https://github.com/user-attachments/assets/fab5d321-a658-43c5-8dae-9154ac1c3a0e" /># ✨ RoseSkin - League of Legends Skins Assets
+# ✨ RoseSkin - League of Legends Skins Assets
 
 <div align="center">
 
