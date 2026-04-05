@@ -17,7 +17,7 @@
 
 This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
 
-**[Rose](https://github.com/Alban1911/Rose)** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
+**[Rose](https://github.com/Alban1911/Rose)** is an open-source automatic skin changer for League of Legends that enables seamless access to all skins in the game, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
 All skin assets are distributed in the `.rse` (Rose Skin Encrypted) format. This proprietary encryption ensures that skin files can only be loaded and applied through the official Rose application, preventing unauthorized use or redistribution by third-party tools.
 
@@ -71,11 +71,9 @@ RoseSkin is open source! Contributions are welcome:
 
 ## Legal Disclaimer
 
-**Important**: This project is not endorsed by Riot Games and does not represent the views or opinions of Riot Games or any of its affiliates. Riot Games and all related properties are trademarks or registered trademarks of Riot Games, Inc.
+This project is not endorsed by or affiliated with Riot Games. Riot Games and all related properties are trademarks or registered trademarks of Riot Games, Inc.
 
-The use of custom skin tools may violate Riot Games' Terms of Service. Users proceed at their own risk.
-
-Custom skins are allowed under Riot's terms of service and do not trigger detection as long as you are not discussing or advertising the use of the skins within the game.
+Custom skins are allowed under Riot's terms of service and are not detected. Do not discuss or advertise skin tools in game. Users proceed at their own risk.
 
 ## Support
 
@@ -87,4 +85,4 @@ Your support helps keep the project alive and motivates continued development!
 
 ---
 
-**Powered by [Rose](https://gitlab.com/Alban1911/Rose)**
+**Powered by [Rose](https://github.com/Alban1911/Rose)**
