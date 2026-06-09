@@ -4,7 +4,7 @@
 
   <img src="./icon.ico" alt="Rose Icon" width="128" height="128">
 
-[![Installer](https://img.shields.io/badge/Installer-Windows-32A832)](https://github.com/Alban1911/Rose/releases/latest) [![Ko-Fi](https://img.shields.io/badge/KoFi-Donate-C03030?logo=ko-fi&logoColor=white)](https://ko-fi.com/roseapp) [![Discord](https://img.shields.io/discord/1465467335946272780?color=32A832&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/roseapp)  [![License](https://img.shields.io/badge/License-Open%20Source-C03030)](LICENSE)
+[![Installer](https://img.shields.io/badge/Installer-Windows-32A832)](https://github.com/shazeus/Rose/releases/latest) [![Fork](https://img.shields.io/badge/Fork-shazeus-32A832)](https://github.com/shazeus/RoseSkin) [![Ko-Fi](https://img.shields.io/badge/KoFi-Donate-C03030?logo=ko-fi&logoColor=white)](https://ko-fi.com/roseapp) [![Discord](https://img.shields.io/discord/1465467335946272780?color=32A832&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/roseapp)  [![License](https://img.shields.io/badge/License-Open%20Source-C03030)](LICENSE)
 
 
 </div>
@@ -14,6 +14,8 @@
 ---
 
 ## About
+
+This fork is maintained under **shazeus/RoseSkin** for fork-specific notes and asset inventory checks while preserving the upstream asset layout.
 
 This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
 
@@ -47,6 +49,16 @@ skins/
 │           └── {form_id}.rse       # Form asset package (encrypted)
 ```
 
+## Fork Inventory Check
+
+Run a quick local asset summary before and after large asset updates:
+
+```bash
+python tools/asset_inventory.py
+```
+
+The script validates locale JSON files and reports champion, skin package, preview image, and locale counts without modifying assets.
+
 ### File Organization
 
 - **Champion IDs**: Numeric identifiers (e.g., 1, 10, 101, etc.)
@@ -57,9 +69,9 @@ skins/
 
 ## Getting Started
 
-1. **Download Rose**: Get the latest installer from our [releases page](https://github.com/Alban1911/Rose/releases/latest)
+1. **Download Rose**: Get the latest fork installer from our [releases page](https://github.com/shazeus/Rose/releases/latest)
 2. **Install the Tool**: Follow the installation instructions
-3. **Apply Skins**: Use [Rose](https://github.com/Alban1911/Rose) to apply any skin in-game
+3. **Apply Skins**: Use [Rose](https://github.com/shazeus/Rose) to apply any skin in-game
 
 ### Contributing
 
@@ -85,4 +97,4 @@ Your support helps keep the project alive and motivates continued development!
 
 ---
 
-**Powered by [Rose](https://github.com/Alban1911/Rose)**
+**Powered by [Rose](https://github.com/shazeus/Rose)**
